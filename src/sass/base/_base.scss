@@ -9,4 +9,22 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  background-color: black;
+}
+
+a {
+  color: $dark-blue-text;
+}
+
+a:hover {
+  color: $dark-blue-text;
+}
+
+.thumbnail {
+  padding:0 10%;
+}
+
+hr {
+  margin: 10vh auto;
+  width: 90%;
 }

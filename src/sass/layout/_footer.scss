@@ -1,6 +1,6 @@
 .footer {
-  background-color: $dark-grey;
-  color: $white-color;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(255, 255, 255, 0.05));
+  color: $dark-blue-text;
   padding: 4.8rem 0;
 
   @include respond(phone) {
@@ -8,7 +8,7 @@
   }
 
   &__text {
-    color: darken($white-color, 50%);
+    color: darken($dark-blue-text, 50%);
     font-size: 1.3rem;
 
     a {
@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white-color;
+    color: $dark-blue-text;
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
@@ -58,7 +58,7 @@
 }
 
 .back-to-top i {
-  color: $white-color;
+  color: $dark-blue-text;
   margin: 1rem 0 $default-font-size;
   transition: all 0.2s ease-in;
 
